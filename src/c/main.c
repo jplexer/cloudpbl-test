@@ -5,7 +5,7 @@ static TextLayer *s_time_layer;
 static TextLayer *s_date_layer;
 
 static void update_time() {
-  // Get a tm structure or something
+  // Get a tm structure or something and another test
   time_t temp = time(NULL);
   struct tm *tick_time = localtime(&temp);
 
